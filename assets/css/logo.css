@@ -1,0 +1,21 @@
+.logo {
+    transition-duration: 2s;
+}
+
+.logo:hover {
+    color: rgb(138, 43, 226)
+}
+
+@media screen and (min-width: 0) {
+    .logo {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        display: block;
+    }
+
+}

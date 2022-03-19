@@ -1,0 +1,25 @@
+.plano {
+    background: rgb(138, 43, 226);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+@media screen and (min-width: 0) {
+    .plano {
+        padding: 5rem 0 0 1rem;
+
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .plano {
+        padding: 5rem 0 0 2rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .plano {
+        padding: 5rem 0 0 5rem;
+    }
+}

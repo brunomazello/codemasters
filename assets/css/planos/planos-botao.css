@@ -1,0 +1,15 @@
+.planos__botao {
+    color: #ffffff;
+    background: #000000;
+    border-radius: 5px;
+    border-style: none;
+    padding: 0.5rem;
+    transition-duration: 2s;
+    width: 100%;
+
+}
+
+.planos__botao:hover {
+    background: rgb(61, 6, 112);
+    cursor: pointer;
+}

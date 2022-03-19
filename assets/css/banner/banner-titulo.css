@@ -1,0 +1,29 @@
+.banner__titulo {
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    left: 50%;
+    position: absolute;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 1);
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.titulo__profissionais {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .banner__titulo {
+        font-size: 4rem;
+    }
+}

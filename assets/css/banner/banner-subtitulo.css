@@ -1,0 +1,25 @@
+.banner__subtitulo {
+    color: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    left: 50%;
+    position: absolute;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 1);
+    top: 55%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 2rem;
+}
+
+@media (min-width: 0) {
+    .banner__subtitulo {
+        padding: 5rem 0 0 1rem;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .banner__subtitulo {
+        padding: 5rem 0 0 2rem;
+    }
+}
